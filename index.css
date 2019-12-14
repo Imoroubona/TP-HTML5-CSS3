@@ -173,6 +173,62 @@ aside img{
 
 /* Le footer */
 
+footer{
+    background:#706b64;
+    color: #fff;
+    padding-top: 25px;
+    padding-left: 20px;
+    border-radius: 4px;
+}
+
+footer p, footer ul
+{
+    font-size: 0.8em;
+}
+footer h1
+{
+    font-size: 1.1em;
+}
+
+#tweet, #mes_photos, #mes_amis{
+    display: inline-block;
+    vertical-align: top;
+    border-left: 2px dotted #FFF;
+}
+
+#tweet
+{
+    width: 28%;
+}
+#mes_photos
+{
+    width: 35%;
+}
+#mes_amis
+{
+    width: 31%;
+}
+
+#mes_photos img{
+    border: 2px solid #181818;
+    margin-right: 2px;
+}
+
+#mes_amis ul {
+    display: inline-block;
+    width: 48%;
+    margin-top: 0;
+    vertical-align: top;
+    list-style-type: none;
+    padding-left: 2px;
+}
+
+#mes_amis a{
+    text-decoration: none;
+    color: #760001;
+
+}
+
 
 
 
