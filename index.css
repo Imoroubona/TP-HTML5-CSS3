@@ -9,6 +9,7 @@
 
 header{
     background-color: #FFF;
+    height: auto;
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24), 0 1px 2px rgba(0, 0, 0, 0.12);
     margin-bottom: 20px;
@@ -72,6 +73,133 @@ nav ul a:hover{
     background-color: rgb(44, 44, 109);
 }
 
+/** Banniere image */
+
+#banniere_image{
+    position: relative;
+    background: url(images/usa.jpg) center no-repeat;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+#banniere_image #banniere_description{
+    position: absolute;
+    width: 80%;
+    bottom: 0;
+    text-align: center;
+    color: #FFF;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5em;
+    right: 10%;
+    left: 10%;
+    text-align: center;
+}
+
+#bouton_rouge{
+    position: absolute;
+    text-decoration: none;
+    width: auto;
+    right: -48px;
+    bottom: 0;
+    height: 50px;
+    color: rgb(8, 246, 195);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    background-color:rgb(128, 8, 8);
+    border-radius: 4px;
+}
+
 /** Corps de la page */
 
+section article, section aside{
+    display: inline-block;
+    vertical-align: top;
+}
 
+section article{
+    width: 50%;
+    text-align: justify;
+    border: 5px solid #222;
+    margin-right: 3%;
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 10px;  
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+}
+
+
+section article .ico_categorie{
+    border-radius: 50%;
+}
+
+
+
+#grand-voyageur{
+   text-transform: uppercase;
+   font-weight: bolder;
+}
+
+section aside{
+    width: 43%;
+    margin-bottom: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    border: 5px solid #222;
+}
+
+
+
+section aside h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+section aside p{
+    padding: 10px;
+}
+
+section aside #photo_zozor{
+    border-radius: 50%;
+}
+
+section aside #case_photo{
+    text-align: center;
+}
+
+section aside img{
+    border-radius: 50%;
+}
+
+section aside #reseaux-sociaux{
+    text-align: center;
+}
+
+/** Le ped de la page*/
+
+footer #tweet, footer #mes_photos, footer #mes_amis {
+      display: inline-block;
+      vertical-align: top;
+}
+
+footer #tweet{
+    width: 20%;
+}
+
+footer #mes_photos{
+    width: 30%;
+}
+
+footer #mes_amis{
+    width: 43%;
+}
+
+ footer  #mes_amis ul{          
+    display: inline-block;
+    list-style-type: none;
+}
+
+footer  #mes_amis ul a{
+    text-decoration: none;
+    color:rgb(71, 8, 8);
+}
