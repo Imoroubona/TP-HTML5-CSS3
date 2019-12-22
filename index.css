@@ -142,10 +142,10 @@ section article .ico_categorie{
 
 section aside{
     width: 43%;
-    margin-bottom: 20px;
     background-color: #FFF;
     border-radius: 10px;
     border: 5px solid #222;
+
 }
 
 
@@ -176,26 +176,44 @@ section aside #reseaux-sociaux{
 }
 
 /** Le ped de la page*/
+footer{
+    background-color: rgba(0, 0, 0, 0.24);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #FFF;
+}
 
 footer #tweet, footer #mes_photos, footer #mes_amis {
       display: inline-block;
       vertical-align: top;
+      
 }
 
 footer #tweet{
-    width: 20%;
+    width: 28%;
 }
 
 footer #mes_photos{
-    width: 30%;
+    width: 35%;    
+}
+
+footer #mes_photos img{
+    border: 1px solid #181818;
+    border-radius: 10px;
+    margin-right: 2px;
 }
 
 footer #mes_amis{
-    width: 43%;
+    width: 31%;
 }
 
  footer  #mes_amis ul{          
     display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    padding-left: 0;
+    width: 40%;
     list-style-type: none;
 }
 
