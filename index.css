@@ -183,7 +183,7 @@ footer #tweet, footer #mes_photos, footer #mes_amis {
 }
 
 footer #tweet{
-    width: 20%;
+    width: 30%;
 }
 
 footer #mes_photos{
@@ -191,12 +191,15 @@ footer #mes_photos{
 }
 
 footer #mes_amis{
-    width: 43%;
+    width: 30%;
 }
 
  footer  #mes_amis ul{          
     display: inline-block;
     list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-right: 30px;
 }
 
 footer  #mes_amis ul a{
