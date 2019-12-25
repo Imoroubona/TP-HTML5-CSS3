@@ -205,4 +205,80 @@ footer #mes_amis{
 footer  #mes_amis ul a{
     text-decoration: none;
     color:rgb(71, 8, 8);
+
+}
+
+
+
+
+
+/**LES MEDIAS QUERIES**/
+
+
+@media screen and (max-width:1240px){
+    #bloc_page{
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        width: 90%;
+    }
+
+  /* Entête**/
+
+    header #titre_principal, header nav{
+        display: block;
+        position: relative;
+        width: auto;
+        padding: auto;
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    header #titre_principal{
+        padding-bottom: 10px;
+    }
+
+
+    header nav{
+        right: auto;
+        padding-top:0; 
+        vertical-align: top;
+    }
+
+    header nav ul{
+        padding-left: 0;
+        margin-top: 0;
+        
+    }
+
+    /* Banniere d'image**/
+
+    #banniere_description{
+        display: none;
+    }
+
+    /** Corps de la page */
+
+    section article, section aside{
+        position: relative;
+        display: block;
+        width: auto;
+        height: auto;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    /**Le footer**/
+
+    footer #tweet, footer #mes_photos, footer #mes_amis {
+        position: relative;
+        display: block;
+        width: auto;
+        height: auto;
+        text-align: center;
+
+  }
+  
+    
+    
 }
